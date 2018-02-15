@@ -14,8 +14,9 @@ class TestViewController : UIViewController{
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var progressView: UIView!
     @IBOutlet weak var flagView: UIImageView!
-    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var questionLabel: UITextView!
     
+    @IBOutlet weak var questionView: UIView!
     //Outlet for Buttons
     @IBOutlet weak var optionA: UIButton!
     @IBOutlet weak var optionB: UIButton!
@@ -33,7 +34,7 @@ class TestViewController : UIViewController{
         updateUI()
     }
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+        //self.navigationController?.setNavigationBarHidden(true, animated: animated)
         super.viewWillAppear(animated)
     }
     
@@ -62,7 +63,7 @@ class TestViewController : UIViewController{
     func updateQuestion(){
         
         if questionNumber <= allQuestions.list.count - 1{
-            flagView.image = UIImage(named:(allQuestions.list[questionNumber].questionImage))
+           // flagView.image = UIImage(named:(allQuestions.list[questionNumber].questionImage))
             questionLabel.text = allQuestions.list[questionNumber].question
             optionA.setTitle(allQuestions.list[questionNumber].optionA, for: UIControlState.normal)
             optionB.setTitle(allQuestions.list[questionNumber].optionB, for: UIControlState.normal)
