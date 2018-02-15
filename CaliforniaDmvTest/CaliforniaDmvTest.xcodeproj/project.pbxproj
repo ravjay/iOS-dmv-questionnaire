@@ -17,6 +17,7 @@
 		969A25092030ED6600E04191 /* CaliforniaDmvTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 969A25072030ED6600E04191 /* CaliforniaDmvTest.xcdatamodeld */; };
 		969A250B2030ED6600E04191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969A250A2030ED6600E04191 /* Assets.xcassets */; };
 		969A250E2030ED6600E04191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969A250C2030ED6600E04191 /* LaunchScreen.storyboard */; };
+		96D2A330203541AF00093E4D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A32F203541AF00093E4D /* CustomView.swift */; };
 		96F88212203162B900495EAE /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F88211203162B900495EAE /* CheckListViewController.swift */; };
 		96F882152031669500495EAE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F882142031669500495EAE /* WebKit.framework */; };
 		96F882172031694400495EAE /* checkList.html in Resources */ = {isa = PBXBuildFile; fileRef = 96F882162031694400495EAE /* checkList.html */; };
@@ -35,6 +36,7 @@
 		969A250A2030ED6600E04191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		969A250D2030ED6600E04191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		969A250F2030ED6600E04191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D2A32F203541AF00093E4D /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		96F88211203162B900495EAE /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
 		96F882142031669500495EAE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		96F882162031694400495EAE /* checkList.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = checkList.html; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		969A24F42030ED6600E04191 = {
 			isa = PBXGroup;
 			children = (
+				96D2A32F203541AF00093E4D /* CustomView.swift */,
 				9616D3272032B3360022C3F9 /* Model */,
 				96F882162031694400495EAE /* checkList.html */,
 				969A24FF2030ED6600E04191 /* CaliforniaDmvTest */,
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9616D32D2032B9720022C3F9 /* TestViewController.swift in Sources */,
+				96D2A330203541AF00093E4D /* CustomView.swift in Sources */,
 				9616D32A2032B3440022C3F9 /* Question.swift in Sources */,
 				969A25092030ED6600E04191 /* CaliforniaDmvTest.xcdatamodeld in Sources */,
 				96F88212203162B900495EAE /* CheckListViewController.swift in Sources */,
